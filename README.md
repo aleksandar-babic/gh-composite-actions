@@ -107,7 +107,7 @@ jobs:
     steps:
        - name: "gcp-auth"
         id: auth
-        uses: 'aleksandar-babic/gh-composite-actions/argo-workflows@v0.1.1'
+        uses: 'aleksandar-babic/gh-composite-actions/argo-workflows@v0.1.0'
         with:
           argoCliVersion: 'v3.3.8'
           argoNamespace: 'workflows'
